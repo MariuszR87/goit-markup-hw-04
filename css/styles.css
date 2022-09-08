@@ -117,6 +117,11 @@ gap: 46px;
   margin-right: 10px;
   padding: 0;
   background-size: cover;
+  justify-content: center;
+  align-content: center;
+}
+.icon:hover{
+  fill: var(--hover-color)
 }
 
 .margin-right50-header{
@@ -147,6 +152,14 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.social-links{
+width: 206px;
+height: 56px;
+border: solid red;
+margin: 16px auto;
+}
+
+
 .btn-porfolio{
   padding: 6px 22px 6px 22px;
 }
@@ -166,7 +179,9 @@ cursor: pointer;
   padding: 200px;
   height: 600px;
   height: auto;
-  background-image: src=".images/background-image.jpg";
+  
+background-image: src="./images/background-img.jpg";
+background-size: cover;
 }
 
 .main-box-btn {
@@ -189,6 +204,21 @@ cursor: pointer;
   /* dodatkowo */
   background-color: darkcyan;
 }
+/* LISTA LOREM IPSUM */
+.list {
+  list-style: none;
+  display: flex;
+}
+.list-one-line{
+  justify-content: center;
+  display: flex;
+  column-gap: 30px;
+}
+.index-not-white-background{
+  background-color: var(--not-white);}
+
+
+
 /* portfolio */
 .filter-btn{
   padding: 0px 0px 50px 0px;
@@ -201,17 +231,6 @@ cursor: pointer;
 
 .btn-porfolio{
   padding: 6px 22px 6px 22px;
-}
-
-/* LISTA LOREM IPSUM */
-.list {
-  list-style: none;
-  display: flex;
-}
-.list-one-line{
-  justify-content: center;
-  display: flex;
-  column-gap: 30px;
 }
 
 .class-h1 {
