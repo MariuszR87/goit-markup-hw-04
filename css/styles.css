@@ -182,8 +182,13 @@ padding-top: 16px;
 }
 
 
-.btn-porfolio{
+.btn-portfolio{
   padding: 6px 22px 6px 22px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn:hover,btn:focus {
@@ -193,6 +198,11 @@ cursor: pointer;
 }
 
 .main-box{
+  background-color: var(--background-color-secondary);
+}
+.main-box-background-image{
+  margin: auto;
+  max-width: 1600px;
   background-color: var(--background-color-secondary);
   background-image: linear-gradient( 0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100% ), url(https://raw.githubusercontent.com/MariuszR87/goit-markup-hw-04/master/images/backgroundimage.jpg);
   background-size: cover;
@@ -204,11 +214,6 @@ cursor: pointer;
   height: 600px;
   height: auto;
 
-}
-.test{
-  width: 1200px;
-  height: 800px;
-  background-image: linear-gradient( 0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100% ), url(https://raw.githubusercontent.com/MariuszR87/goit-markup-hw-04/master/images/backgroundimage.jpg);
 }
 
 .main-box-btn {
@@ -417,6 +422,11 @@ padding:20px 24px;
 .li-item{
   box-sizing: border-box;
   flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.li-item-shadow:hover,
+.li-item-shadow:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .team-item {
