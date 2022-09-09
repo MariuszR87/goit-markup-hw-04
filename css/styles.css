@@ -69,6 +69,7 @@ body {
 .logo-section{
   margin-right: 93px;
 }
+
   .logo{
     color: var(--blue);
     text-decoration: none;
@@ -95,6 +96,7 @@ gap: 46px;
   display: flex;
   align-items: center;
 }
+
 
 .nav-item{
   color: var(--font-color-main);
@@ -128,6 +130,8 @@ gap: 46px;
 .icon:focus{
   fill: var(--hover-color)
 }
+
+
 
 .margin-right50-header{
   margin-right: 50px;
@@ -190,6 +194,8 @@ cursor: pointer;
 
 .main-box{
   background-color: var(--background-color-secondary);
+  background-image: linear-gradient( 0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100% ), url(https://raw.githubusercontent.com/MariuszR87/goit-markup-hw-04/master/images/backgroundimage.jpg);
+  background-size: cover;
 }
 
 .main-box-container{
@@ -197,8 +203,7 @@ cursor: pointer;
   padding: 200px;
   height: 600px;
   height: auto;
-  background-image: linear-gradient( 0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100% ), url(https://raw.githubusercontent.com/MariuszR87/goit-markup-hw-04/master/images/backgroundimage.jpg);
-background-size: cover;
+
 }
 .test{
   width: 1200px;
@@ -236,6 +241,27 @@ background-size: cover;
   display: flex;
   column-gap: 30px;
 }
+.list-one-line-6element{
+  justify-content: center;
+  display: flex;
+  column-gap: 30px;
+  box-sizing: border-box;
+  
+}
+
+.list-item-one-line-6element{
+ 
+  border: 1px solid var(--icon-grey);
+  border-radius: 4px;
+  fill: var(--icon-grey);
+}
+
+.list-item-one-line-6element:hover,
+.list-item-one-line-6element:focus{
+  fill: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
 .index-not-white-background{
   background-color: var(--not-white);}
 
@@ -424,4 +450,29 @@ padding:20px 24px;
   letter-spacing: 0.03em;
   color: var(--fotter-links);
   margin-top: 9px;
+}
+
+.fotter-spacing {
+  display: flex;
+  align-items: center;
+}
+
+.fotter-margin70{
+  margin-right: 70px;
+}
+
+.social-fotter-links-svg{
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  fill: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.social-fotter-links-svg:hover,
+.social-fotter-links-svg:focus{
+  background-color: var(--hover-color);
+  fill: var(--white);
 }
