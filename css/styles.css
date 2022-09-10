@@ -125,10 +125,16 @@ gap: 46px;
   background-size: cover;
   justify-content: center;
   align-content: center;
+  cursor: pointer;
 }
+.icon{
+  cursor: pointer;
+}
+
 .icon:hover,
 .icon:focus{
-  fill: var(--hover-color)
+  fill: var(--hover-color);
+  cursor: pointer;
 }
 
 
@@ -375,6 +381,7 @@ color: var(--font-color-second)
   padding: 0;
   box-sizing: border-box;
   max-width: 370px;
+  cursor: pointer;
 }
 .figcaption-border{
  margin-top: 0;
