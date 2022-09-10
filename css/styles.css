@@ -259,6 +259,7 @@ cursor: pointer;
   border: 1px solid var(--icon-grey);
   border-radius: 4px;
   fill: var(--icon-grey);
+  cursor: pointer;
 }
 
 .list-item-one-line-6element:hover,
