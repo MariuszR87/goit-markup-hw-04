@@ -239,7 +239,7 @@ cursor: pointer;
 
 .main-box-btn:hover, .main-box-btn:focus{
   cursor: pointer;
-  /* dodatkowo */
+  /* dodatkowo do btn */
   background-color: darkcyan;
 }
 /* LISTA LOREM IPSUM */
